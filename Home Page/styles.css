@@ -17,6 +17,22 @@ h2 {
     padding: 10px;
 }
 
+.flexgrow-container {
+    display: flex;
+}
+
+.section-one {
+    background-color: blueviolet; 
+}
+
+.box1 {
+    background-color: skyblue;
+    
+    height: 200px;
+    flex: 2 1 auto;
+
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -28,12 +44,12 @@ main {
     border: 5px;
 }
 
-.about {
+.user-experience {
     opacity: 1;
     padding: 10px;
 }
 
-.about:hover {
+.user-experience:hover {
     opacity: 0.7;
 }
 .typographic-systems {
